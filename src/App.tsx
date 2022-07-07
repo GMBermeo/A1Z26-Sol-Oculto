@@ -61,7 +61,7 @@ const App = () => {
       <div className="row-span-1">
         <a href="https://git.bermeo.dev" target="_blank">
           <img
-            src="src/logo.svg"
+            src="/logo.svg"
             className="fixed inset-x-0 bottom-4 mx-auto h-12"
           />
         </a>
