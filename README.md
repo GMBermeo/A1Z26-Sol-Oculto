@@ -1,6 +1,8 @@
 # A1Z26
 
-<img height="64px" align="right" src="https://raw.githubusercontent.com/o-Balde/A1Z26-Sol-Oculto/master/src/favicon.svg" alt="Logo" />
+<img height="64px" style="margin-right: 1rem" align="left" src="https://raw.githubusercontent.com/o-Balde/A1Z26-Sol-Oculto/master/src/favicon.svg" alt="Logo" />
+
+The A1Z26 encoding ("cipher") got its name from the way it works: A=1, B=2, ..., Z=26. It is the most straightforward possible letter to numbers translation. Although the encoding is intended for the English alphabet, it can also be used for other languages. This translation tool will help you easily convert letters to numbers using any alphabet.
 
 ## Table of Contents
 
@@ -14,7 +16,7 @@
 - [Color Palette](#color-palette)
 - [Links](#links)
 
-The A1Z26 encoding ("cipher") got its name from the way it works: A=1, B=2, ..., Z=26. It is the most straightforward possible letter to numbers translation. Although the encoding is intended for the English alphabet, it can also be used for other languages. This translation tool will help you easily convert letters to numbers using any alphabet.
+
 
 ## O Enigma do Sol Oculto
 
@@ -67,9 +69,9 @@ yarn build
 
 ## Links
 
-- https://a1z26.bermeo.dev
-  - https://soloculto.bermeo.dev
-  - https://a1z26.vercel.app
+- <https://a1z26.bermeo.dev>
+  - <https://soloculto.bermeo.dev>
+  - <https://a1z26.vercel.app>
 
 <p align="center">
 <a href="http://a1z26.bermeo.dev/">
