@@ -1,8 +1,6 @@
 import React from "react";
 import removerAcentos from "./Components/RemoverAcentos";
 import { alfabeto } from "./Components/Alfabeto";
-import "./css/App.css";
-import "./css/ArtDeco.css";
 
 const App = () => {
   const [convertido, setConvertido] = React.useState(Number);
@@ -27,9 +25,9 @@ const App = () => {
   }, [input]);
 
   return (
-    <div className="grid h-[100vh] grid-cols-1 grid-rows-3 content-between">
+    <div className="grid h-[100vh] grid-cols-1 grid-rows-2 content-between">
       <div className="row-span-1">
-        <h1 className="text-gold poiret-one mt-6 text-center text-4xl shadow-xl">
+        <h1 className="text-gold poiret-one mt-6 text-center text-5xl shadow-xl">
           A1Z26
         </h1>
         {convertido && (
@@ -39,8 +37,7 @@ const App = () => {
             </div>
           </>
         )}
-      </div>
-      <div className="row-span-1">
+
         <div className="poiret-one mx-auto mb-auto w-full max-w-xs">
           <form className="art-deco mb-4 rounded-lg bg-black px-12 pt-4 pb-8">
             <label className="block text-4xl text-white" htmlFor="texto">
@@ -62,7 +59,7 @@ const App = () => {
         <a href="https://git.bermeo.dev" target="_blank">
           <img
             src="/logo.svg"
-            className="fixed inset-x-0 bottom-4 mx-auto h-12"
+            className="fixed inset-x-0 bottom-4 mx-auto h-24"
           />
         </a>
       </div>
