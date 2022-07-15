@@ -75,7 +75,7 @@ yarn build
 
 <p align="center">
 <a href="http://a1z26.bermeo.dev/">
-<img height="512px" src="https://raw.githubusercontent.com/o-Balde/A1Z26-Sol-Oculto/master/public/logo.svg"/></a>
+<img width="50%" src="https://raw.githubusercontent.com/o-Balde/A1Z26-Sol-Oculto/master/public/logo.svg"/></a>
 </p>
 
 <p align="right">
