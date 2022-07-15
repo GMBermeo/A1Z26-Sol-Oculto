@@ -20,7 +20,7 @@ The A1Z26 encoding ("cipher") got its name from the way it works: A=1, B=2, ...,
 
 ## O Enigma do Sol Oculto
 
-<img src="https://jamboeditora.com.br/app/uploads/2022/06/jamboeditora-enigma-do-sol.png" height="256px" align="right"/>
+<img src="https://jamboeditora.com.br/app/uploads/2022/06/jamboeditora-enigma-do-sol.png" width="40%" align="right"/>
 
 It's a Brazilian "Choose Your Own Adventure" (Solo RPG Adventure) gamebook set in the 1920s published by Jambô.
 The book was written by Karen Soaralle and Alexandre Ottoni, in 2022, being the most successful crowdfunded project in Brazil.
@@ -62,16 +62,16 @@ yarn build
 - ![gold](https://via.placeholder.com/15/ffd700/ffd700.png) `#FFD700` (gold)
   - ![#FFE600](https://via.placeholder.com/15/FFE600/FFE600.png) `#FFE600`
 - ![#00183D](https://via.placeholder.com/15/00183d/00183d.png) `#00183D`
-  - ![#000F01](https://via.placeholder.com/15/000F01/000F01.png) `#000F01`
+  - ![#000502](https://via.placeholder.com/15/000502/000502.png) `#000502`
 - ![#AEFAFF](https://via.placeholder.com/15/AEFAFF/AEFAFF.png) `#AEFAFF`
 - ![#FF7A00](https://via.placeholder.com/15/FF7A00/FF7A00.png) `#FF7A00`
   - ![#FF0000](https://via.placeholder.com/15/FF0000/FF0000.png) `#FF0000`
 
 ## Links
 
-- <https://a1z26.bermeo.dev>
-  - <https://soloculto.bermeo.dev>
-  - <https://a1z26.vercel.app>
+- [A1Z26.Bermeo.dev](https://a1z26.bermeo.dev)
+  - [SolOculto.Bermeo.dev](https://soloculto.bermeo.dev)
+  - [A1Z26.vercel.app](https://a1z26.vercel.app)
 
 <p align="center">
 <a href="http://a1z26.bermeo.dev/">

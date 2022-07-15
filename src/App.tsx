@@ -59,7 +59,7 @@ const App = () => {
         <a href="https://git.bermeo.dev" target="_blank">
           <img
             src="/logo.svg"
-            className="fixed inset-x-0 bottom-4 mx-auto h-24"
+            className="fixed inset-x-0 bottom-4 mx-auto h-32"
           />
         </a>
       </div>
