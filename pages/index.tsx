@@ -1,6 +1,6 @@
 import React from "react";
 import { NextPage } from "next";
-import { removerAcentos, alfabeto } from "src/lib/";
+import { removerAcentos, alfabeto } from "../lib";
 
 const Home: NextPage = () => {
   const [convertido, setConvertido] = React.useState(Number);
