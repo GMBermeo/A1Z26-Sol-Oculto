@@ -1,8 +1,11 @@
 import React from "react";
-import removerAcentos from "./Components/RemoverAcentos";
-import { alfabeto } from "./Components/Alfabeto";
+import { NextPage } from "next";
+import { removerAcentos, alfabeto } from "src/lib/";
+import "../styles/index.css";
+import "../styles/_app.css";
+import "../styles/artDeco.css";
 
-const App = () => {
+const App: NextPage = () => {
   const [convertido, setConvertido] = React.useState(Number);
   const [input, setInput] = React.useState(String);
   const [processo, setProcesso] = React.useState(String);

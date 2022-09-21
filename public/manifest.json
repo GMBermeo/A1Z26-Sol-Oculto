@@ -1,0 +1,17 @@
+{
+  "name": "A1Z26 - O Enigma do Sol Oculto",
+  "short_name": "A1Z26",
+  "start_url": "/",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "600x600",
+      "purpose": "any"
+    }
+    
+  ],
+  "theme_color": "#000502",
+  "background_color": "#000502"
+}

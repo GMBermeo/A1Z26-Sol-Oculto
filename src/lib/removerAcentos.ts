@@ -1,4 +1,4 @@
-export default function removerAcentos(s: String) {
+export function removerAcentos(s: String) {
   var r = s.toLowerCase();
   r = r.replace(new RegExp(/\s/g), "");
   r = r.replace(new RegExp(/[àáâãäå]/g), "a");
