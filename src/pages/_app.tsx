@@ -1,9 +1,9 @@
 import React from "react";
 import { NextPage } from "next";
 import { removerAcentos, alfabeto } from "src/lib/";
-import "../styles/index.css";
-import "../styles/_app.css";
-import "../styles/artDeco.css";
+import "src/styles/index.css";
+import "src/styles/_app.css";
+import "src/styles/artDeco.css";
 
 const App: NextPage = () => {
   const [convertido, setConvertido] = React.useState(Number);
