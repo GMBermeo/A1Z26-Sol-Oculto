@@ -20,7 +20,7 @@ The A1Z26 encoding ("cipher") got its name from the way it works: A=1, B=2, ...,
 
 ## O Enigma do Sol Oculto
 
-<img src="https://jamboeditora.com.br/app/uploads/2022/06/jamboeditora-enigma-do-sol.png" width="40%" align="right"/>
+<img src="https://jamboeditora.com.br/wp-content/uploads/2022/06/jamboeditora-enigma-do-sol.png" width="40%" align="right"/>
 
 It's a Brazilian "Choose Your Own Adventure" (Solo RPG Adventure) gamebook set in the 1920s published by Jambô.
 The book was written by Karen Soaralle and Alexandre Ottoni, in 2022, being the most successful crowdfunded project in Brazil.
