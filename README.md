@@ -1,6 +1,6 @@
 # A1Z26
 
-<img height="64px" style="margin-right: 1rem" align="left" src="https://raw.githubusercontent.com/o-Balde/A1Z26-Sol-Oculto/master/src/favicon.svg" alt="Logo" />
+<img height="64px" style="margin-right: 1rem" align="left" src="https://a1z26.bermeo.dev/favicon.svg" alt="Logo" />
 
 The A1Z26 encoding ("cipher") got its name from the way it works: A=1, B=2, ..., Z=26. It is the most straightforward possible letter to numbers translation. Although the encoding is intended for the English alphabet, it can also be used for other languages. This translation tool will help you easily convert letters to numbers using any alphabet.
 
@@ -75,7 +75,7 @@ yarn build
 
 <p align="center">
 <a href="http://a1z26.bermeo.dev/">
-<img width="50%" src="https://raw.githubusercontent.com/o-Balde/A1Z26-Sol-Oculto/master/public/logo.svg"/></a>
+<img width="50%" src="https://a1z26.bermeo.dev/logo.svg"/></a>
 </p>
 
 <p align="right">
