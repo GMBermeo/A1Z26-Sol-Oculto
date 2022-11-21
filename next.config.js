@@ -2,6 +2,9 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+  images: {
+    domains: ["www.bermeo.dev"],
+  },
   // webpack: (config, { isServer }) => {
   //   if (isServer) {
   //     require("./scripts/sitemap-generator");
