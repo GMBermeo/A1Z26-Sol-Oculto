@@ -33,7 +33,7 @@ const Home: NextPage = () => {
         <title>A1Z26 - O Enigma do Sol Oculto</title>
         <meta
           name="description"
-          content="A1Z26 tool to assist 'O Enigma do Sol Oculto players', convert letters to numbers. Numbering the letters so A=1, Z=26, etc is one of the simplest ways of converting them to numbers."
+          content="A1Z26 tool to assist 'O Enigma do Sol Oculto' players, convert letters to numbers. Numbering the letters so A=1, Z=26, etc is one of the simplest ways of converting them to numbers."
         />
       </Head>
       <div className="flex h-[100vh] flex-col justify-between">
