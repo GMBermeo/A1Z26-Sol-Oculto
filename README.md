@@ -16,8 +16,6 @@ The A1Z26 encoding ("cipher") got its name from the way it works: A=1, B=2, ...,
 - [Color Palette](#color-palette)
 - [Links](#links)
 
-
-
 ## O Enigma do Sol Oculto
 
 <img src="https://jamboeditora.com.br/wp-content/uploads/2022/06/jamboeditora-enigma-do-sol.png" width="40%" align="right"/>
@@ -75,7 +73,7 @@ yarn build
 
 <p align="center">
 <a href="http://a1z26.bermeo.dev/">
-<img width="50%" src="https://a1z26.bermeo.dev/logo.svg"/></a>
+<img width="50%" src="https://a1z26.bermeo.dev/Logo.svg"/></a>
 </p>
 
 <p align="right">

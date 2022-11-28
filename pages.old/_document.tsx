@@ -44,7 +44,6 @@ class MyDocument extends Document {
             }}
           />
           <meta name="author" content="Guilherme Bermêo" />
-          <title>A1Z26 - O Enigma do Sol Oculto</title>
           <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
           <meta
             name="description"
