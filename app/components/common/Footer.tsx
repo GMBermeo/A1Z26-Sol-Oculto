@@ -8,7 +8,7 @@ export const Footer = () => {
       <Link href="https://www.bermeo.dev" target="_blank">
         <Image
           src="https://www.bermeo.dev/logo-transparent.svg"
-          className="h-16 opacity-10 hover:opacity-100"
+          className={s.smallIcon}
           alt="Bermeo Logo"
           width={48}
           height={48}
@@ -17,7 +17,7 @@ export const Footer = () => {
       <Link href="https://github.com/GMBermeo" target="_blank">
         <Image
           src="/Logo.svg"
-          className="h-32"
+          className={s.largeIcon}
           alt="A1Z26 Logo"
           width={128}
           height={128}
@@ -26,7 +26,7 @@ export const Footer = () => {
       <Link href="https://www.linkedin.com/in/gmbermeo/" target="_blank">
         <Image
           src="/social/linkedin.svg"
-          className="h-16 opacity-10 hover:opacity-100"
+          className={s.smallIcon}
           alt="Linkedin Logo"
           width={36}
           height={36}

@@ -2,6 +2,7 @@
 import { useState, useEffect } from "react";
 import { NextPage } from "next";
 import { removerAcentos, alfabeto } from "../lib";
+import s from "../styles/Page.module.scss";
 
 const Home: NextPage = () => {
   const [convertido, setConvertido] = useState(Number);
@@ -28,9 +29,7 @@ const Home: NextPage = () => {
   return (
     <>
       <div>
-        <h1 className="text-gold poiret-one mt-6 text-center text-5xl shadow-xl">
-          A1Z26
-        </h1>
+        <h1 className={s.title}>A1Z26</h1>
         {convertido > 0 && (
           <>
             <div className="art-deco limenine mx-auto my-6 p-8 text-6xl text-white shadow-2xl">

@@ -1,4 +1,26 @@
-.footer{
-    display: flex;
-    justify-content: space-around;
+.footer {
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+
+  a {
+    align-self: center;
+  }
+
+  .smallIcon {
+    height: 4rem;
+    opacity: 10%;
+    &:hover {
+      opacity: 100%;
+    }
+  }
+
+  .largeIcon {
+    height: 8rem /* 128px */;
+  }
+
+  .smallIcon,
+  .largeIcon {
+    cursor: pointer;
+  }
 }
