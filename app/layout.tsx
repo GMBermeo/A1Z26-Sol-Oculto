@@ -1,6 +1,6 @@
-import s from "./MainLayout.module.scss";
-import "../styles/globals.scss";
-import "../styles/_app.scss";
+import s from "styles/Layout.module.scss";
+import "styles/globals.scss";
+import "styles/_app.scss";
 import { Footer } from "./components/common/Footer";
 
 export default function RootLayout({
@@ -11,7 +11,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <div className="flex h-[100vh] flex-col justify-between">
+        <div className={s.layout}>
           {children}
           <Footer />
         </div>

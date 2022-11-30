@@ -38,15 +38,13 @@ const Home: NextPage = () => {
           </>
         )}
 
-        <div className="poiret-one mx-auto mb-auto w-full max-w-xs">
-          <form className="art-deco mb-4 rounded-lg bg-black px-12 pt-4 pb-8">
-            <label className="block text-4xl text-white" htmlFor="texto">
-              Texto
-            </label>
+        <div className={s.container}>
+          <form className={s.artDeco}>
+            <label htmlFor="text">Text</label>
             <input
-              className="input-box w-full appearance-none border py-2 px-3 leading-tight"
-              id="texto"
-              placeholder="Texto a ser convertido"
+              className={s.input}
+              id="text"
+              placeholder="Text to be converted"
               onChange={({ target }) => setInput(target.value)}
               maxLength={27}
             />

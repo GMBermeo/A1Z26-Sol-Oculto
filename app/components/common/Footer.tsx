@@ -28,8 +28,8 @@ export const Footer = () => {
           src="/social/linkedin.svg"
           className={s.smallIcon}
           alt="Linkedin Logo"
-          width={36}
-          height={36}
+          width={48}
+          height={48}
         />
       </Link>
     </footer>

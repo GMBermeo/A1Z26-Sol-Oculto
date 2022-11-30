@@ -1,6 +1,6 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+// @tailwind base;
+// @tailwind components;
+// @tailwind utilities;
 @import url("https://fonts.googleapis.com/css2?family=Limelight&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Poiret+One");
 
@@ -19,29 +19,13 @@
   color: var(--gold);
 }
 
-.art-deco {
-  width: fit-content;
-  border: 20px solid transparent; /* invisible space */
-  outline: 2px groove gold;
-  outline-offset: -10px; /* first box */
-  background: linear-gradient(gold 0 0) top, linear-gradient(gold 0 0) left,
-    linear-gradient(gold 0 0) bottom, linear-gradient(gold 0 0) right;
-  background-size: 200% 2px, 1px 200%; /* second box */
-  background-origin: padding-box;
-  background-repeat: no-repeat;
-}
+
 
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family:  "Poiret One", cursive;
+  font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
 }

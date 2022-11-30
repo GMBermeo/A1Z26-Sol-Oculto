@@ -61,6 +61,7 @@ export default function Head() {
         content="A1Z26, O Enigma do Sol Oculto, Jambô, Livro Jogo, Tool, Cipher, Cypher, Convert, Letters, Numbers, A=1, Z=26, Karen Soarele, Bermeo"
       />
       <link rel="manifest" href="/manifest.json"></link>
+      <meta name="viewport" content="width=device-width" />
     </>
   );
 }
