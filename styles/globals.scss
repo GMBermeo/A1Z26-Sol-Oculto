@@ -4,27 +4,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Limelight&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Poiret+One");
 
-:root{
-  --gold: #ffd700
-}
-
-.limenine {
-  font-family: "Limelight", cursive;
-}
-.poiret-one {
-  font-family: "Poiret One", cursive;
+:root {
+  --gold: #ffd700;
+  --limelight: "Limelight", sans-serif;
+  --poiret: "Poiret One", sans-serif;
 }
 
 .text-gold {
   color: var(--gold);
 }
 
-
-
-
 body {
   margin: 0;
-  font-family:  "Poiret One", cursive;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

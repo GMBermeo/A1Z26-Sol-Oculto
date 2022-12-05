@@ -32,24 +32,21 @@ const Home: NextPage = () => {
         <h1 className={s.title}>A1Z26</h1>
         {convertido > 0 && (
           <>
-            <div className="art-deco limenine mx-auto my-6 p-8 text-6xl text-white shadow-2xl">
-              {convertido}
-            </div>
+            <div className={s.converted}>{convertido}</div>
           </>
         )}
 
         <div className={s.container}>
-          <form className={s.artDeco}>
+          <form>
             <label htmlFor="text">Text</label>
             <input
-              className={s.input}
               id="text"
               placeholder="Text to be converted"
               onChange={({ target }) => setInput(target.value)}
               maxLength={27}
             />
-            <div className="limenine mt-6 text-white">{processo}</div>
           </form>
+          <div className={s.processing}>{processo}</div>
         </div>
       </div>
     </>

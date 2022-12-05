@@ -1,61 +1,122 @@
-@import "mixins";
+@mixin goldenBackground {
+  background-image: linear-gradient(
+    150deg,
+    rgb(153, 121, 0),
+    rgb(153, 125, 0),
+    rgb(182, 149, 0)
+  );
+}
+
+@mixin art-deco {
+  background: linear-gradient(gold 0 0) top, linear-gradient(gold 0 0) 0,
+    linear-gradient(gold 0 0) bottom, linear-gradient(gold 0 0) 100%;
+  background-size: 200% 2px, 1px 200%;
+  background-image: linear-gradient(rgb(153, 129, 0) 0px, rgb(153, 129, 0) 0px),
+    linear-gradient(rgb(153, 129, 0) 0px, rgb(153, 129, 0) 0px),
+    linear-gradient(rgb(153, 129, 0) 0px, rgb(153, 129, 0) 0px),
+    linear-gradient(rgb(153, 129, 0) 0px, rgb(153, 129, 0) 0px);
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2rem solid transparent;
+  outline: 2px groove gold;
+  outline-offset: -1rem;
+
+  background-size: 200% 2px, 1px 200%;
+  background-origin: padding-box;
+  background-repeat: no-repeat;
+  border-radius: 1rem;
+}
 
 .title {
-  font-family: "Poiret One", cursive;
-  font-weight: 400;
-  font-size: 3rem /* 48px */;
-  color: var(--gold);
+  font: {
+    family: var(--poiret);
+    weight: 400;
+    size: 4rem;
+  }
+  color: gold;
   margin-top: 1.5rem;
   text-align: center;
-
   line-height: 1;
   box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
     0 8px 10px -6px rgb(0 0 0 / 0.1);
 }
 
-.container{
-    font-family: "Poiret One", cursive;
-    margin-left: auto;
-    margin-right: auto;
-width: 100%;
-    max-width: 20rem/* 320px */;
+.converted {
+  @include art-deco;
+
+  padding: 3rem;
+  margin: 1.5rem auto;
+  padding: 2rem;
+  font-family: var(--limelight);
+  font-size: 5rem;
+  line-height: 1;
+  color: white;
+  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  // @include artDeco;
+  // @include limenien;
 }
 
-.artDeco {
-  margin-bottom: 1rem;
-  border-radius: 0.5rem /* 8px */;
-  background-color: black;
-  padding: 1rem 3rem 2rem 3rem;
-  width: fit-content;
-  border: 20px solid transparent; /* invisible space */
-  outline: 2px groove gold;
-  outline-offset: -10px; /* first box */
-  background: linear-gradient(gold 0 0) top, linear-gradient(gold 0 0) left,
-    linear-gradient(gold 0 0) bottom, linear-gradient(gold 0 0) right;
-  background-size: 200% 2px, 1px 200%; /* second box */
-  background-origin: padding-box;
-  background-repeat: no-repeat;
+.container {
+  @include art-deco;
 
-  label {
-    display: block;
-    font-size: 2.25rem /* 36px */;
-    line-height: 2.5rem /* 40px */;
-    color: white;
-  }
-}
-
-.input {
   width: 100%;
-  appearance: none;
-  border-width: 1px;
-  padding: 0.5rem 0.75rem;
-  line-height: 1.25;
-  color: #000;
-  margin-top: 1.5rem;
-  background: linear-gradient(150deg, #ffca00, #ffd000, #e4ba00);
-  border: none;
-  outline: 2px groove;
-  outline-color: gold;
-  outline-offset: 5px;
-  transition: all 0.4s ease-in-out;
+  max-width: 20rem;
+  font-family: var(--poiret);
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #000;
+  padding: 2rem 3rem 3rem 3rem;
+
+  form {
+    label {
+      display: block;
+      font-size: 3rem;
+      line-height: 3rem;
+      color: white;
+    }
+
+    input {
+      @include goldenBackground;
+      font: {
+        family: var(--poiret);
+        size: 1.5rem;
+        weight: 400;
+      }
+      color: white;
+      width: 100%;
+      appearance: none;
+      border-width: 1px;
+      padding: 0.75rem 0 0.75rem 0.75rem;
+      line-height: 1.25;
+      margin-top: 1.5rem;
+      border: none;
+      outline: {
+        width: 2px;
+        color: gold;
+        offset: 5px;
+        style: solid;
+      }
+      transition: all 0.4s ease-in-out;
+      &:focus {
+        outline: {
+          color: rgb(179, 140, 0);
+          offset: 2px;
+        }
+        transition: all 0.2s ease-in-out;
+      }
+      &::placeholder {
+        color: gold;
+      }
+    }
+  }
+
+  .processing {
+    font: {
+      family: "Limelight", cursive;
+      size: 1.5rem;
+    }
+    color: white;
+    margin-top: 1.75rem;
+  }
 }
