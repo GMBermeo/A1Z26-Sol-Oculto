@@ -32,7 +32,7 @@
   font: {
     family: var(--poiret);
     weight: 400;
-    size: 4rem;
+    size: 2rem;
   }
   color: gold;
   margin-top: 1.5rem;
@@ -49,7 +49,7 @@
   margin: 1.5rem auto;
   padding: 2rem;
   font-family: var(--limelight);
-  font-size: 5rem;
+  font-size: 3rem;
   line-height: 1;
   color: white;
   box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
@@ -60,7 +60,7 @@
 .container {
   @include art-deco;
 
-  width: 100%;
+  // width: 100%;
   max-width: 20rem;
   font-family: var(--poiret);
   margin-left: auto;
@@ -71,8 +71,8 @@
   form {
     label {
       display: block;
-      font-size: 3rem;
-      line-height: 3rem;
+      font-size: 2rem;
+      line-height: 1rem;
       color: white;
     }
 
