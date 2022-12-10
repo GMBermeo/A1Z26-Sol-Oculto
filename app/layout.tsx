@@ -10,7 +10,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
+      <body className={s.body}>
         <div className={s.layout}>
           {children}
           <Footer />

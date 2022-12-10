@@ -1,14 +1,15 @@
 .footer {
+  position: fixed;
+  bottom: 0;
   display: flex;
   width: 100vw;
   justify-content: space-around;
-
   a {
     align-self: center;
   }
 
   .smallIcon {
-    height: 3rem;
+    height: 2.25rem;
     width: auto;
     opacity: 10%;
     &:hover {

@@ -32,7 +32,7 @@
   font: {
     family: var(--poiret);
     weight: 400;
-    size: 2rem;
+    size: 48px;
   }
   color: gold;
   margin-top: 1.5rem;
@@ -44,12 +44,11 @@
 
 .converted {
   @include art-deco;
-
   padding: 3rem;
   margin: 1.5rem auto;
   padding: 2rem;
   font-family: var(--limelight);
-  font-size: 3rem;
+  font-size: 36px;
   line-height: 1;
   color: white;
   box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
@@ -59,15 +58,12 @@
 
 .container {
   @include art-deco;
-
-  // width: 100%;
   max-width: 20rem;
   font-family: var(--poiret);
   margin-left: auto;
   margin-right: auto;
   background-color: #000;
   padding: 2rem 3rem 3rem 3rem;
-
   form {
     label {
       display: block;
@@ -80,7 +76,7 @@
       @include goldenBackground;
       font: {
         family: var(--poiret);
-        size: 1.5rem;
+        size: 16px;
         weight: 400;
       }
       color: white;
